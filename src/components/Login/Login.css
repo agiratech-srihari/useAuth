@@ -1,0 +1,186 @@
+.backimage {
+    background-image: url(/home/agira/srihari/Task/dashboard/public/images/LOGIN.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+.logo {
+    background-image: url(/home/agira/srihari/Task/dashboard/public/images/Logo.png);
+    background-repeat: no-repeat;
+    background-position-x: 20%;
+    background-position-y: center;
+}
+
+.divider {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dummy {
+    flex: 65%;
+}
+.login-container {
+    box-shadow: 2px 2px rgba(128, 128, 128, 0.3);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    /* width: 200px; */
+    height: 60;
+    background-color: white;
+    flex-direction: row;
+    flex: 25%;
+    /* width: 90%; */
+}
+.dummy2 {
+    flex: 10%;
+}
+.input-container {
+    margin: 5rem 0rem;
+    width:70%;
+}
+Input {
+    border: none;
+
+}
+.heading {
+    margin-bottom: 2rem;
+}
+.heading h2 {
+    font-weight:550;
+    color: #043752ec;
+    font-size: 1.2rem;
+}
+.heading span {
+    font-weight: 600;
+    color: #043752ec  ;
+    font-size:1.5rem;
+}
+button {
+    padding: 3px 0px 3px 0px;
+    width: 100%;
+    background-color: #043752ec;
+    border-radius: 5px;
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, 0.833);
+    height: 2.5rem; 
+    margin-bottom: 2rem;
+    font-weight: 300 ;
+}
+.input {
+    width: 100%;
+    background-color: rgb(155, 169, 196);
+    border-radius: 5px;
+    color: #043752;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    /* align-items:flex-start; */
+    margin: 1rem 0rem 0rem 0rem ;
+}
+.fgtps {
+    float:right;
+    color: #043752;
+    font-size: small;
+    /* margin-bottom: .3rem; */
+    margin-top: 1rem;
+}
+.fgtps:hover {
+    cursor: pointer;
+}
+@media(max-width:1288){
+    .dummy{
+        flex:50%
+    }
+    .login-container{
+        flex: 45%;
+    }
+    .dummy2{
+        flex: 10%;
+    }
+}
+@media (max-width:988px){
+    .logo{
+        background-position-x:15% ;
+
+    }
+    .dummy{
+        flex: 55%;
+    }
+    .login-container{
+        flex: 40%;
+    }
+    .dummy2{
+        flex:10%
+    }
+}
+
+@media (max-width:780px){
+    .logo{
+        background-position-x:10% ;
+      
+    }
+    .dummy{
+        flex: 35%;
+    }
+    .login-container{
+        flex:45%;
+    }
+    .dummy2{
+        flex: 10%;
+    }
+}
+@media(max-width:580px){
+    .backimage{
+        height: 100vh;
+    }
+    .logo{
+        background-image:none ;
+    }
+    .dummy{
+        flex: 35%;
+    }
+    .login-container{
+        flex: 50%;
+    }
+    .dummy2{
+        flex:15%
+    }
+}
+@media  (max-width:475px){
+    .backimage{
+        background-image: none;
+        height: 100vh;
+    }
+    .logo{
+        background-image: none;
+
+    }
+    .divider{
+        background-color: #043752;
+        height: 100vh;
+    }
+    .login-container{
+        height: 70vh;
+        flex: 100%;
+        width: 100vw;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3.5px;
+        /* border: #043752 2px solid; */
+    }
+    .input-container {
+        margin: 5rem 2rem 5rem 2rem;
+    }
+    .dummy{
+        flex: 0%;
+    }
+    .dummy2{
+        flex: 0%;
+    }
+}
+
+/* #input-with-icon-adornment{
+    margin-left: .5rem;
+} */

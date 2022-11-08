@@ -1,0 +1,22 @@
+.react-datepicker-ignore-onclickoutside{
+    background-color:#a6a6a6;
+    color:  #043752;
+    width: 100%;
+
+  }
+
+.react-datepicker-wrapper{
+    background-color:#a6a6a6;
+    color:  #043752;
+    width:90%;
+    
+    /* border:none */
+}
+
+input{
+    background-color: #a6a6a6;
+    color:#043752;
+    border: none;
+    width:100%;
+    outline:none
+}
